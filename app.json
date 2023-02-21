@@ -1,15 +1,51 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/index",
+    "pages/mine/index",
+    "pages/app/index",
+    "pages/xin/index",
+    "pages/ketijingfei/ketijingfei",
+    "pages/jingfei/jingfei",
+    "pages/shiji/shiji",
+    "pages/chengguo/chengguo",
+    "pages/xiangmuguanli/xiangmuguanli",
+    "pages/tuandui/tuandui",
+    "pages/xinjian/xinjian",
+    "pages/xingqing/xingqing",
+    "pages/jibenxinxi/jibenxinxi",
+    "pages/geren/geren"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "医疗管理系统",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#3366cc",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "/assets/image/home-copy.png",
+        "selectedIconPath": "/assets/image/home-copys.png"
+      },
+      {
+        "pagePath": "pages/app/index",
+        "text": "电子实验记录本",
+        "iconPath": "/assets/image/edit.png",
+        "selectedIconPath": "/assets/image/edits.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "/assets/image/user.png",
+        "selectedIconPath": "/assets/image/users.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
 }
